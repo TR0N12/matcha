@@ -1,0 +1,22 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: nowrap; */
+    /* justify-content: center; */
+    align-items: end;
+    align-content: space-around;
+
+    background:aquamarine;
+    height: 500px;
+    margin-top: 200px;
+    margin-bottom: 500px;
+}
+
+.Container > div {
+    height:50px ;
+    width: 50px ;
+    background: black;
+    color: bisque;
+    margin: 10px;
+}
+
